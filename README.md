@@ -15,9 +15,9 @@ Home
   http://localhost:3000 <br/>
 
 
-npm i 
-npm i json-server --registry.js.org
-in package.json , add script : 
-    "scripts": {
-      "start": "node server.js"
-    },
+npm i <br/>
+npm i json-server --registry.js.org <br/>
+in package.json , add script :  <br/>
+    "scripts": { <br/>
+      "start": "node server.js" <br/>
+    }, <br/>
