@@ -13,3 +13,11 @@ http://localhost:3000/ACI <br/>
 
 Home
   http://localhost:3000 <br/>
+
+
+npm i 
+npm i json-server --registry.js.org
+in package.json , add script : 
+    "scripts": {
+      "start": "node server.js"
+    },
