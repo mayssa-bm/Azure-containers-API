@@ -157,7 +157,7 @@
            ]
         }
     ],
-    "App service": [
+    "AppService": [
         {
            "General Information": [
                {
@@ -236,7 +236,7 @@
            ]
         }
     ],
-    "Batch ": [
+    "Batch": [
         {
            "General Information": [
                {
@@ -315,7 +315,7 @@
            ]
         }
     ],
-    "Service fabric": [
+    "ASF": [
         {
            "General Information": [
                {
@@ -393,85 +393,5 @@
                 }
            ]
         }
-    ],
-    "Service fabric mesh": [
-        {
-           "General Information": [
-               {
-               "Decription": "Build and deploy mission critical apps in a Serverless way",
-               "Documentation": "https://docs.microsoft.com/en-us/azure/service-fabric-mesh/"
-                }
-           ],
-           "Hosting Model ": [
-               {
-               "Workloads": "Containers (Docker)",
-               "Orchestrator": "Service Fabric",
-               "Min nodes": "Serverless",
-               "Supported OS": "Linux, Windows",
-               "Service type": "Stateless (native) and Stateful (native) ",
-               "PaaS": "Serverless"
-                }
-           ],
-           " DevOps ": [
-               {
-               "Visual Studio": "Native Integration (Preview)",
-               "Remote Debug": "Supported (Preview)",
-               "Development": "Development cluster (1 or 5 nodes) 100% same features",
-               "App update": "App Updates with Rolling updates (prod), Refresh (dev)",
-               "CI/CD ": "Native CI/CD support",
-               "Languages": "Any language, any framework",
-               "Portability": "Applications are portable",
-               "On-prem": "On-Prem automatic installation (100% compatible)",
-               "Orchestrator": "No orchestrator to manage",
-               "Managment": "CLI, Web (limited)"
-                }
-           ],
-           " Scalability ": [
-               {
-               "Auto-scaling": "Supported (Serverless)",
-               "Max Nodes": "Unlimited (Serverless)",
-               "Auto-balancing": "Supported (Serverless)"
-                }
-           ],
-           " Availability ": [
-               {
-               "SLA": "N/A (Preview)",
-               "Failover": "Native",
-               "Multi-region": "N/A (Preview)"
-                }
-           ],
-           " Security ": [
-               {
-               "SSL": "SSL supported natively",
-               "RBAC": "RBAC supported",
-               "OS Updates": "OS updated automatically (Serverless)"
-                }
-           ],
-           " Service Discovery ": [
-               {
-               "Public endpoint": "Supported",
-               "DNS resolution": "Supported (No client dependencies)",
-               "Remoting": "N/A",
-               "Service Registry": "N/A",
-               "Reverse Proxy": "N/A"
-                }
-           ],
-           " Integration ": [
-               {
-               "API Management": "Supported (manual)",
-               "Load Balancer": "Native Azure Load Balancer integration",
-               "Monitoring": "Native support (apps, performances and health)",
-               "Failure simulation": "N/A"
-                }
-           ],
-           " Cost & Support ": [
-               {
-               "Azure": "Cost only for resources used (no other licenses)",
-               "On-Prem": "On-prem installation is free",
-               "Support": "Support directly from Microsoft"
-                }
-           ]
-        }
-    ]
-    
-  }
+    ] 
+}
