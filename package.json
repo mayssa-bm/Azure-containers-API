@@ -151,6 +151,7 @@
     "semver-diff": "^3.1.1",
     "send": "^0.17.1",
     "serv": "^0.2.4",
+    "serve": "^12.0.1",
     "serve-static": "^1.14.1",
     "server-destroy": "^1.0.1",
     "setprototypeof": "^1.1.1",
@@ -189,7 +190,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm run build"
-    },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mayssa-bm/Azure-containers-API.git"
