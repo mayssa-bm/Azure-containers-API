@@ -1,0 +1,477 @@
+{
+    "ACI": [
+     {
+        "General Information": [
+            {
+            "Decription": "Easily run containers on Azure without managing servers",
+            "Documentation": "https://docs.microsoft.com/en-us/azure/container-instances/"
+             }
+        ],
+        "Hosting Model ": [
+            {
+            "Workloads": "Containers (Docker, OCI, CNCF)",
+            "Orchestrator": "N/A",
+            "Min nodes": "Serverless",
+            "Supported OS": "Linux, Windows",
+            "Service type": "Stateless (native) and Stateful (custom)",
+            "PaaS": "Serverless"
+             }
+        ],
+        " DevOps ": [
+            {
+            "Visual Studio": "N/A",
+            "Remote Debug": "N/A",
+            "Development": "Development environment to be manually setup (1+ nodes)",
+            "App update": "In-place update",
+            "CI/CD ": "N/A",
+            "Languages": "Any language, any framework",
+            "Portability": "Applications are portable",
+            "On-prem": "Docker to be installed on-prem manually",
+            "Orchestrator": "N/A",
+            "Managment": "CLI, PowerShell (limited), Web (limited)"
+             }
+        ],
+        " Scalability ": [
+            {
+            "Auto-scaling": "N/A",
+            "Max Nodes": "Unlimited (Serverless)",
+            "Auto-balancing": "N/A"
+             }
+        ],
+        " Availability ": [
+            {
+            "SLA": "SLA 99.9%",
+            "Failover": "N/A",
+            "Multi-region": "With multiple ACI in different regions"
+             }
+        ],
+        " Security ": [
+            {
+            "SSL": "N/A",
+            "RBAC": "RBAC supported",
+            "OS Updates": "RBAC supported"
+             }
+        ],
+        " Service Discovery ": [
+            {
+            "Public endpoint": "External only",
+            "DNS resolution": "N/A",
+            "Remoting": "N/A",
+            "Service Registry": "N/A",
+            "Reverse Proxy": "N/A"
+             }
+        ],
+        " Integration ": [
+            {
+            "API Management": "No native support",
+            "Load Balancer": "N/A",
+            "Monitoring": "Native support (apps, performances and health)",
+            "Failure simulation": "N/A"
+             }
+        ],
+        " Cost & Support ": [
+            {
+            "Azure": "Cost only for resources used (no other licenses)",
+            "On-Prem": "N/A",
+            "Support": "Support directly from Microsoft"
+             }
+        ]
+     }
+    ],
+    "AKS": [
+        {
+           "General Information": [
+               {
+               "Decription": "Fully managed Kubernetes, simplified operations",
+               "Documentation": "https://docs.microsoft.com/en-us/azure/aks/"
+                }
+           ],
+           "Hosting Model ": [
+               {
+               "Workloads": "Containers (Docker, OCI, CNCF)",
+               "Orchestrator": "Kubernetes",
+               "Min nodes": "3 worker nodes, control plan fully managed",
+               "Supported OS": "Linux, Windows (preview)",
+               "Service type": "Stateless (native) and Stateful (custom)",
+               "PaaS": "Self-managed worker nodes"
+                }
+           ],
+           " DevOps ": [
+               {
+               "Visual Studio": "Preview",
+               "Remote Debug": "Supported (DevSpace)",
+               "Development": "Development environment to be manually setup (1+ nodes)",
+               "App update": "App Updates with Rolling updates",
+               "CI/CD ": "Native CI/CD support",
+               "Languages": "Languages and Frameworks depends on OS",
+               "Portability": "Applications are portable",
+               "On-prem": "Docker and Kubernetes to be installed on-prem manually",
+               "Orchestrator": "Orchestrator manually managed",
+               "Managment": "CLI, Web (limited)"
+                }
+           ],
+           " Scalability ": [
+               {
+               "Auto-scaling": "Preview (VMSS)",
+               "Max Nodes": "250",
+               "Auto-balancing": "N/A"
+                }
+           ],
+           " Availability ": [
+               {
+               "SLA": "SLA 99.5% control plan & SLA 99.95% worker nodes",
+               "Failover": "Native (Kubernetes)",
+               "Multi-region": "No multi-region cluster"
+                }
+           ],
+           " Security ": [
+               {
+               "SSL": "SSL to be configured in each VM",
+               "RBAC": "RBAC supported",
+               "OS Updates": "Only security updates"
+                }
+           ],
+           " Service Discovery ": [
+               {
+               "Public endpoint": "External only",
+               "DNS resolution": "Supported (No client dependencies)",
+               "Remoting": "N/A",
+               "Service Registry": "Supported (via 3rd party tools)",
+               "Reverse Proxy": "N/A"
+                }
+           ],
+           " Integration ": [
+               {
+               "API Management": "No native support",
+               "Load Balancer": "Native Azure Load Balancer integration + Kubernetes LB",
+               "Monitoring": "Native support (apps, performances and health)",
+               "Failure simulation": "No failure simulation capabilities"
+                }
+           ],
+           " Cost & Support ": [
+               {
+               "Azure": "Cost only for resources used (no other licenses)",
+               "On-Prem": "On-prem installation is free",
+               "Support": "Support from Microsoft (AKS), from Community (Kubernetes)"
+                }
+           ]
+        }
+    ],
+    "App service": [
+        {
+           "General Information": [
+               {
+               "Decription": "Easily deploy, run and manage containerized web apps",
+               "Documentation": "https://docs.microsoft.com/en-us/azure/app-service/containers/"
+                }
+           ],
+           "Hosting Model ": [
+               {
+               "Workloads": "Containers (Docker), Web Apps",
+               "Orchestrator": "N/A",
+               "Min nodes": "1",
+               "Supported OS": "Linux, Windows (preview)",
+               "Service type": "Stateless ",
+               "PaaS": "Full PaaS"
+                }
+           ],
+           " DevOps ": [
+               {
+               "Visual Studio": "Native Integration (Full support)",
+               "Remote Debug": "Supported",
+               "Development": "Development environment to be manually setup (1+ nodes)",
+               "App update": "In-place update or Deployment Slots",
+               "CI/CD ": "Native CI/CD support",
+               "Languages": "Any language, any framework",
+               "Portability": "Applications are portable",
+               "On-prem": "Docker and Kubernetes to be installed on-prem manually",
+               "Orchestrator": "N/A",
+               "Managment": "CLI, PowerShell, Web, APIs"
+                }
+           ],
+           " Scalability ": [
+               {
+               "Auto-scaling": "Supported (AppService)",
+               "Max Nodes": "3, 10, 20, 100 depending on service tier",
+               "Auto-balancing": "Not Supported"
+                }
+           ],
+           " Availability ": [
+               {
+               "SLA": "SLA 99.95%",
+               "Failover": "N/A",
+               "Multi-region": "With multiple AppService in different regions"
+                }
+           ],
+           " Security ": [
+               {
+               "SSL": "SSL supported natively",
+               "RBAC": "RBAC supported",
+               "OS Updates": "OS updated automatically (PaaS)"
+                }
+           ],
+           " Service Discovery ": [
+               {
+               "Public endpoint": "External only",
+               "DNS resolution": "N/A",
+               "Remoting": "N/A",
+               "Service Registry": "N/A",
+               "Reverse Proxy": "N/A"
+                }
+           ],
+           " Integration ": [
+               {
+               "API Management": "Native Support",
+               "Load Balancer": "Native Azure Load Balancer integration",
+               "Monitoring": "Native support (apps, performances and health)",
+               "Failure simulation": "N/A"
+                }
+           ],
+           " Cost & Support ": [
+               {
+               "Azure": "Cost only for resources used (no other licenses)",
+               "On-Prem": "N/A",
+               "Support": "Support directly from Microsoft"
+                }
+           ]
+        }
+    ],
+    "Batch ": [
+        {
+           "General Information": [
+               {
+               "Decription": "Cloud-scale job scheduling and compute management",
+               "Documentation": "https://docs.microsoft.com/en-us/azure/batch/"
+                }
+           ],
+           "Hosting Model ": [
+               {
+               "Workloads": "Containers (Docker), Native",
+               "Orchestrator": "N/A",
+               "Min nodes": "1",
+               "Supported OS": "Linux, Windows",
+               "Service type": "Stateless (native) and Stateful (custom) ",
+               "PaaS": "No infrastructure to manage"
+                }
+           ],
+           " DevOps ": [
+               {
+               "Visual Studio": "Native Integration (Full support)",
+               "Remote Debug": "Supported",
+               "Development": "Connected to Azure",
+               "App update": "In-place update",
+               "CI/CD ": "N/A",
+               "Languages": "Any language, any framework",
+               "Portability": "N/A",
+               "On-prem": "Docker to be installed on-prem manually",
+               "Orchestrator": "No Orchestration",
+               "Managment": "CLI, PowerShell, Web, APIs"
+                }
+           ],
+           " Scalability ": [
+               {
+               "Auto-scaling": "N/A",
+               "Max Nodes": "Unspecified",
+               "Auto-balancing": "Automatic"
+                }
+           ],
+           " Availability ": [
+               {
+               "SLA": "SLA 99.9%",
+               "Failover": "N/A",
+               "Multi-region": "N/A"
+                }
+           ],
+           " Security ": [
+               {
+               "SSL": "N/A",
+               "RBAC": "RBAC supported",
+               "OS Updates": "OS updated automatically (PaaS)"
+                }
+           ],
+           " Service Discovery ": [
+               {
+               "Public endpoint": "N/A",
+               "DNS resolution": "N/A",
+               "Remoting": "N/A",
+               "Service Registry": "N/A",
+               "Reverse Proxy": "N/A"
+                }
+           ],
+           " Integration ": [
+               {
+               "API Management": "N/A",
+               "Load Balancer": "N/A",
+               "Monitoring": "Native support (apps, performances and health)",
+               "Failure simulation": "N/A"
+                }
+           ],
+           " Cost & Support ": [
+               {
+               "Azure": "Cost only for resources used (no other licenses)",
+               "On-Prem": "N/A",
+               "Support": "Support directly from Microsoft"
+                }
+           ]
+        }
+    ],
+    "Service fabric": [
+        {
+           "General Information": [
+               {
+               "Decription": "Build and operate always-on, scalable, distributed apps",
+               "Documentation": "https://docs.microsoft.com/en-us/azure/service-fabric/"
+                }
+           ],
+           "Hosting Model ": [
+               {
+               "Workloads": "Microservices, Guest execs, Containers (Docker)",
+               "Orchestrator": "Service Fabric",
+               "Min nodes": "5 worker nodes, no control plan nodes",
+               "Supported OS": "Linux, Windows",
+               "Service type": "Stateless (native) and Stateful (native) ",
+               "PaaS": "No infrastructure to manage"
+                }
+           ],
+           " DevOps ": [
+               {
+               "Visual Studio": "Native Integration (Full support)",
+               "Remote Debug": "Supported",
+               "Development": "Development cluster (1 or 5 nodes) 100% same features",
+               "App update": "App Updates with Rolling updates (prod), Refresh (dev)",
+               "CI/CD ": "Native CI/CD support",
+               "Languages": "Any language, any framework",
+               "Portability": "Applications are portable",
+               "On-prem": "On-Prem automatic installation (100% compatible)",
+               "Orchestrator": "No orchestrator to manage",
+               "Managment": "CLI, PowerShell, Web, APIs"
+                }
+           ],
+           " Scalability ": [
+               {
+               "Auto-scaling": "Supported (VMSS)",
+               "Max Nodes": "Unspecified",
+               "Auto-balancing": "Automatic"
+                }
+           ],
+           " Availability ": [
+               {
+               "SLA": "SLA 99.95%",
+               "Failover": "Native",
+               "Multi-region": "multi-region cluster"
+                }
+           ],
+           " Security ": [
+               {
+               "SSL": "SSL supported natively",
+               "RBAC": "RBAC supported",
+               "OS Updates": "OS updated automatically"
+                }
+           ],
+           " Service Discovery ": [
+               {
+               "Public endpoint": "Supported",
+               "DNS resolution": "Supported (No client dependencies)",
+               "Remoting": "Supported (.Net, Java)",
+               "Service Registry": "Supported (SDK)",
+               "Reverse Proxy": "Supported (No client dependencies)"
+                }
+           ],
+           " Integration ": [
+               {
+               "API Management": "Native Support",
+               "Load Balancer": "Native Support",
+               "Monitoring": "Native support (apps, performances and health)",
+               "Failure simulation": "Integrated failure simulation capabilities"
+                }
+           ],
+           " Cost & Support ": [
+               {
+               "Azure": "Cost only for resources used (no other licenses)",
+               "On-Prem": "On-prem installation is free",
+               "Support": "Support directly from Microsoft"
+                }
+           ]
+        }
+    ],
+    "Service fabric mesh": [
+        {
+           "General Information": [
+               {
+               "Decription": "Build and deploy mission critical apps in a Serverless way",
+               "Documentation": "https://docs.microsoft.com/en-us/azure/service-fabric-mesh/"
+                }
+           ],
+           "Hosting Model ": [
+               {
+               "Workloads": "Containers (Docker)",
+               "Orchestrator": "Service Fabric",
+               "Min nodes": "Serverless",
+               "Supported OS": "Linux, Windows",
+               "Service type": "Stateless (native) and Stateful (native) ",
+               "PaaS": "Serverless"
+                }
+           ],
+           " DevOps ": [
+               {
+               "Visual Studio": "Native Integration (Preview)",
+               "Remote Debug": "Supported (Preview)",
+               "Development": "Development cluster (1 or 5 nodes) 100% same features",
+               "App update": "App Updates with Rolling updates (prod), Refresh (dev)",
+               "CI/CD ": "Native CI/CD support",
+               "Languages": "Any language, any framework",
+               "Portability": "Applications are portable",
+               "On-prem": "On-Prem automatic installation (100% compatible)",
+               "Orchestrator": "No orchestrator to manage",
+               "Managment": "CLI, Web (limited)"
+                }
+           ],
+           " Scalability ": [
+               {
+               "Auto-scaling": "Supported (Serverless)",
+               "Max Nodes": "Unlimited (Serverless)",
+               "Auto-balancing": "Supported (Serverless)"
+                }
+           ],
+           " Availability ": [
+               {
+               "SLA": "N/A (Preview)",
+               "Failover": "Native",
+               "Multi-region": "N/A (Preview)"
+                }
+           ],
+           " Security ": [
+               {
+               "SSL": "SSL supported natively",
+               "RBAC": "RBAC supported",
+               "OS Updates": "OS updated automatically (Serverless)"
+                }
+           ],
+           " Service Discovery ": [
+               {
+               "Public endpoint": "Supported",
+               "DNS resolution": "Supported (No client dependencies)",
+               "Remoting": "N/A",
+               "Service Registry": "N/A",
+               "Reverse Proxy": "N/A"
+                }
+           ],
+           " Integration ": [
+               {
+               "API Management": "Supported (manual)",
+               "Load Balancer": "Native Azure Load Balancer integration",
+               "Monitoring": "Native support (apps, performances and health)",
+               "Failure simulation": "N/A"
+                }
+           ],
+           " Cost & Support ": [
+               {
+               "Azure": "Cost only for resources used (no other licenses)",
+               "On-Prem": "On-prem installation is free",
+               "Support": "Support directly from Microsoft"
+                }
+           ]
+        }
+    ]
+    
+  }
