@@ -1,4 +1,6 @@
-this API containers of list of Azure services 
+this API has a description of Azure services 
+
+steps: 
 
 npm install json-server <br/>
 json-server --watch db.json <br/>
